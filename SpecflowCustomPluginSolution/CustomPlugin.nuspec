@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>BTL.SpecFlow.CustomPlugin</id>
+    <version>1.0.4</version>
+    <title>BTL.SpecFlow.CustomPlugin</title>
+    <authors>Shivendra</authors>
+	<owners>Shivendra Rana</owners>
+     <description>To support the Nunit Functionalities on specflow, Please refer to the readme on how to configure and use custom tags</description>
+	<tags>SpecFlow CustomPlugin</tags>
+    <copyright>Copyright 2019</copyright>
+   </metadata>
+  <files>
+    <file src=".\bin\Release\CustomPlugin.SpecflowPlugin.dll" target="lib\CustomPlugin.SpecflowPlugin.dll"/>
+	<file src=".\bin\Release\CustomPlugin.SpecflowPlugin.dll" target="lib\CustomPlugin.SpecflowPlugin.xml"/>
+	<file src="ReadMe.txt" target="lib\ReadMe.txt" />
+  </files>
+</package>
